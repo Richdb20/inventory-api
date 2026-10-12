@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory API - Login</title>
+
+    <style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.login-container {
+    background-color: white;
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+        h1 {
+            text-align: center;
+            color: #1e293b;
+        }
+
+        p {
+            text-align: center;
+            color: #64748b;
+        }
+
+        label {
+            display: block;
+            margin-top: 18px;
+            margin-bottom: 6px;
+            font-weight: bold;
+        }
+
+        input {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 11px;
+            border: 1px solid #cbd5e1;
+            border-radius: 5px;
+        }
+
+        button {
+            width: 100%;
+            margin-top: 24px;
+            padding: 12px;
+            background-color: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #1d4ed8;
+        }
+
+        .message {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 14px;
+        }
+
+        .error {
+            color: #dc2626;
+        }
+
+        .success {
+            color: #15803d;
+        }
+    </style>
+</head>
+
+<body>
+<div class="login-container">
+
+    <h1>Inventory API</h1>
+    <p>Sign in to view your switch inventory</p>
+
+    <div th:if="${param.error}" class="message error">
+        Invalid username or password.
+    </div>
+
+    <div th:if="${param.logout}" class="message success">
+        You have been logged out successfully.
+    </div>
+
+    <form th:action="@{/login}" method="post">
+
+        <label for="username">Username</label>
+        <input
+                type="text"
+                id="username"
+                name="username"
+                autocomplete="username"
+                required
+                autofocus>
+
+        <label for="password">Password</label>
+        <input
+                type="password"
+                id="password"
+                name="password"
+                autocomplete="current-password"
+                required>
+
+        <button type="submit">Sign In</button>
+
+    </form>
+
+</div>
+</body>
+</html>
