@@ -9,14 +9,22 @@ The Inventory API provides a centralized way to manage network switch inventory 
 The application also includes a browser-based inventory interface with user authentication, providing a foundation for managing inventory through both a web interface and API clients.
 
 Login Page:
+<p>
+   
+</p>
 <img width="672" height="547" alt="Login" src="https://github.com/user-attachments/assets/c065a74e-43bd-45f5-8c4f-9e1aa91329e0" />
+<p>
+   
+</p>
 
-<br>
-<br>
-<br>
-
+Switch Inventory Page:
+<p>
+   
+</p>
 <img width="1499" height="845" alt="Inventory Page" src="https://github.com/user-attachments/assets/6cccf68f-c797-4aeb-bf55-ed3b216773c8" />
-
+<p>
+   
+</p>
 The project directory structure, or project template, was generated via the [Spring Initializr](https://start.spring.io/) web tool with the following parameters seelcted:
 <br>
 <br>
