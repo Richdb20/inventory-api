@@ -14,6 +14,9 @@ The application also includes a browser-based inventory interface with user auth
 
 <img width="1499" height="845" alt="Inventory Page" src="https://github.com/user-attachments/assets/6cccf68f-c797-4aeb-bf55-ed3b216773c8" />
 
+The project directory structure, or project template, was generated via the [Spring Initializr](https://start.spring.io/) web tool with the following parameters seelcted:
+
+<img width="1271" height="923" alt="Spring" src="https://github.com/user-attachments/assets/203dac06-7d9f-45c3-9e92-a0e357ace2b3" />
 
 ## Key Features
 
@@ -94,10 +97,6 @@ Security is an important part of this project.
 - Git
 
 ### Setup
-
-The project directory structure, or project template for a Spring Boot REST API can be generated through the Spring Initializr web tool,
-
-<img width="1271" height="923" alt="Spring" src="https://github.com/user-attachments/assets/d3b518c0-3f1a-49d8-9e38-af73763f0ec8" />
 
 1. Clone the repository:
 
