@@ -95,6 +95,10 @@ Security is an important part of this project.
 
 ### Setup
 
+The project directory structure, or project template for a Spring Boot REST API can be generated through the Spring Initializr web tool,
+
+<img width="1271" height="923" alt="Spring" src="https://github.com/user-attachments/assets/d3b518c0-3f1a-49d8-9e38-af73763f0ec8" />
+
 1. Clone the repository:
 
    ```bash
