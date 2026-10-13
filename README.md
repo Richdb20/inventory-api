@@ -26,9 +26,9 @@ Switch Inventory Page:
    
 </p>
 The project directory structure, or project template, was generated via the [Spring Initializr](https://start.spring.io/) web tool with the following parameters seelcted:
-<br>
-<br>
-<br>
+<p>
+   
+</p>
 <img width="1271" height="923" alt="Spring" src="https://github.com/user-attachments/assets/203dac06-7d9f-45c3-9e92-a0e357ace2b3" />
 
 ## Key Features
