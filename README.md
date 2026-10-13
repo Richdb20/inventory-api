@@ -8,8 +8,9 @@ The Inventory API provides a centralized way to manage network switch inventory 
 
 The application also includes a browser-based inventory interface with user authentication, providing a foundation for managing inventory through both a web interface and API clients.
 
-<img width="928" height="715" alt="Login Page" src="https://github.com/user-attachments/assets/68d6e83e-6339-459f-b0a2-05966143283a" />
+<img width="672" height="547" alt="Login" src="https://github.com/user-attachments/assets/c065a74e-43bd-45f5-8c4f-9e1aa91329e0" />
 
+<br>
 
 <img width="1499" height="845" alt="Inventory Page" src="https://github.com/user-attachments/assets/6cccf68f-c797-4aeb-bf55-ed3b216773c8" />
 
