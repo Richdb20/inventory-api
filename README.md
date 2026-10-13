@@ -2,15 +2,17 @@
 
 A secure REST API built with Java and Spring Boot to manage network switch inventory. This project demonstrates backend application development, relational database integration, RESTful API design, and role-based access control using Spring Security and JSON Web Tokens (JWT).
 
-<img width="928" height="715" alt="Login Page" src="https://github.com/user-attachments/assets/68d6e83e-6339-459f-b0a2-05966143283a" />
-
-<img width="1499" height="845" alt="Inventory Page" src="https://github.com/user-attachments/assets/6cccf68f-c797-4aeb-bf55-ed3b216773c8" />
-
 ## Overview
 
 The Inventory API provides a centralized way to manage network switch inventory records, including switch models, hostnames, locations, and lifecycle information. It supports standard CRUD (Create, Read, Update, Delete) operations through REST endpoints and integrates with MySQL for persistent data storage.
 
 The application also includes a browser-based inventory interface with user authentication, providing a foundation for managing inventory through both a web interface and API clients.
+
+<img width="928" height="715" alt="Login Page" src="https://github.com/user-attachments/assets/68d6e83e-6339-459f-b0a2-05966143283a" />
+
+
+<img width="1499" height="845" alt="Inventory Page" src="https://github.com/user-attachments/assets/6cccf68f-c797-4aeb-bf55-ed3b216773c8" />
+
 
 ## Key Features
 
