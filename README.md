@@ -1,6 +1,6 @@
 # Inventory API — Secure Network Switch Inventory Management
 
-A secure REST API built with Java and Spring Boot to manage network switch inventory. This project demonstrates backend application development, relational database integration, RESTful API design, and role-based access control using Spring Security and JSON Web Tokens (JWT).
+A secure REST API built with Java and Spring Boot to manage network switch inventory. This project demonstrates backend application development, relational database integration, RESTful API design, and role-based access control using Spring Security and JSON Web Tokens (JWT). This project was created through both manual effort of basic Java skills and with help from AI to explore and learn about specific technology and framework such as Spring Boot, Spring Security, and Maven.
 
 ## Overview
 
