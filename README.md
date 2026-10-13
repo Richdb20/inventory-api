@@ -25,7 +25,7 @@ Switch Inventory Page:
 <p>
    
 </p>
-The project directory structure, or project template, was generated via the [Spring Initializr](https://start.spring.io/) web tool with the following parameters seelcted:
+The project directory structure, or project template, was generated via the [Spring Initializr](https://start.spring.io/) web tool with the following parameters selected:
 <p>
    
 </p>
